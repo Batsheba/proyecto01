@@ -65,6 +65,9 @@ button:hover{
 }
 .caracteristicas h2{
     text-align: center;
+    padding: 80px;
+    font-size: calc(24px + 1vw);;
+   
 }
 .tarjetas{
     display: flex;
