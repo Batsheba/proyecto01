@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: "Open Sans",sans-serif;
+    /* border: blue 1px solid; */
 }
 header{
     background-image: linear-gradient(45deg,#3dada4,#c71fe6);
@@ -25,7 +26,7 @@ nav li{
     margin: 0 5px;
    
 }
-button{
+.button{
     background: transparent;
     border: 1px solid white;
     padding: 10px 20px;
@@ -34,7 +35,7 @@ button{
     max-height: 40px;
 }
 
-button:hover{
+.button:hover{
     background-color: white;
     color: rgb(59, 59, 59);
 }
@@ -71,9 +72,10 @@ button:hover{
 }
 .tarjetas{
     display: flex;
+  
 }
 .tarjeta{
-    padding: 20px;
+    padding: 40px 30px;
     /* box-shadow: d_eyex d_eyey difuminado color; */
     box-shadow: 0 0 20px gray;
     border-radius: 10px;
@@ -87,6 +89,13 @@ button:hover{
 .tarjeta a{
     text-decoration: none;
     color: #03d6f3;
+   
+}
+.tarjeta h4{
+    font-size: 30px;
+}
+.tarjeta p{
+    font-size: 17px;
 }
 .tarjeta:nth-of-type(2){
  background-image: linear-gradient(45deg,#3dada4,#c71fe6);
@@ -102,3 +111,73 @@ button:hover{
         align-items: center;
     }
 }
+.contenido1{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.contenido1 img{
+    max-width: 500px;
+}
+article{
+   
+    display: flex;
+    align-items: center;
+}
+.info{
+   flex-direction: row-reverse;
+   
+}
+.cont-1{
+    margin: 0 50px;
+    
+}
+
+.cont-1 h2,p{
+    padding-bottom: 30px;
+}
+
+.cont-1 h2{
+  font-size: 35px;
+}
+.cont-1 p{
+   font-size: 17px;
+   color: #5c5c5c;
+   font-weight: bold;
+}
+button{
+    background: transparent;
+    border: 1px solid #30d7ba;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: #30d7ba;
+    max-height: 40px;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #03d6f3;
+    color: white;
+}
+.info2 img {
+    padding: 20px ;
+    margin: 20px  0 20px 40px;
+    max-width: 600px;
+    border-radius: 30px;
+}
+.cont-2 h2,p{
+   padding-right:30px ;
+   padding-bottom: 30px;
+ }
+.cont-2 h2{
+    font-size: 40px;
+}
+.cont-2 p{
+    font-size: 20px;
+    color: #6b6b6b;
+}
+.div-button{
+    display: flex;
+}
+
+
